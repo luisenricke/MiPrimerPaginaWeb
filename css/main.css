@@ -26,3 +26,24 @@ a{
 	margin-right: 1em;
 	color: #2D3E86;
 }
+
+.no-lista {
+	padding: 0px;
+	margin: 0px;
+}
+
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.no-lista li{
+	list-style-type: none;
+}
+
+.navegacion{
+	background-color: #6D6D6D;
+	color: #FFF;
+	margin: 15px 50px;
+}
