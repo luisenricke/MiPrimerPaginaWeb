@@ -24,6 +24,12 @@ body{
 	color: #FC5B52;
 }
 
+.navegacion-link{
+	font-size: 2em;
+	font-family: 'Caveat', cursive;
+	color: #FFF;
+}
+
 .fuente{
 	font-size: 2em;
 	font-family: 'Caveat', cursive;
@@ -51,9 +57,9 @@ a{
 }
 
 .navegacion{
-	background-color: #6D6D6D;
+	background-color: #1A1A1A;
 	color: #FFF;
-	margin: 15px 50px;
+	margin: 5px 10px;
 }
 
 .azul{
