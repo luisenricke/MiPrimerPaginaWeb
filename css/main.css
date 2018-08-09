@@ -18,11 +18,28 @@ body{
 	float: none;
 }
 
+.mediano{
+	font-size: 1.25em;
+}
+
 .titulo{
 	font-size: 4em;
 	font-family: 'Caveat', cursive;
 	color: #FC5B52;
 }
+
+.navegacion-link-main{
+	font-size: 2em;
+	font-family: 'Caveat', cursive;
+	color: #F8D54E;
+}
+
+.navegacion-link-select{
+	font-size: 2em;
+	font-family: 'Caveat', cursive;
+	color: #FC5B52;
+}
+
 
 .navegacion-link{
 	font-size: 2em;
