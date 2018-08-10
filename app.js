@@ -65,4 +65,29 @@ function getCookie(nombre){
 	return undefined;
 }
 
-console.log(getCookie("apellido"));
+//console.log(getCookie("apellido"));
+
+function evento( arg ){
+	console.log("Me dispare");
+	console.log(arg);
+}
+
+
+//var obj = document.getElementById("objBtn");
+//obj.addEventListener("click", evento);
+
+document.onmousedown = function(arg){
+	if(arg.button ===2){
+		alert("Click bloqueado");
+		console.log(arg);
+		return;
+	}else{
+		console.log("Todo bien");
+	}
+}
+
+
+document.onmouseup = function(arg){
+	var select = window.getSelection().toString();
+	console.log(select);
+}
